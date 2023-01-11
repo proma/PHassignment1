@@ -24,7 +24,7 @@ p {
 /* Header Banner */
 .header-banner {
   background-image: url('images/banner/banner3.png');
-  background-position: right;
+  background-position: center;
   height: 700px;
   background-repeat: no-repeat;
   color: #ffffff;
@@ -33,7 +33,10 @@ p {
 
 .banner {
   width: 500px;
-  padding: 197px 0px 350px 788px;
+  /* padding: 197px 0px 350px 788px; */
+  float: right;
+  padding-right: 100px;
+  padding-top: 120px;
 }
 
 .header-tittle {
